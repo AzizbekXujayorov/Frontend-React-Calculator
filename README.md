@@ -1,44 +1,61 @@
-# Instruction how to send project to review
-- [Russian](https://github.com/bahtibek-an/Instruction-how-to-send-project-to-review/edit/main/README.md)
-# Frontend-React-Calculator
+# Welcome to My Frontend Calculator
 
-Remember to git add && git commit && git push each exercise!
-
-We will execute your function with our test(s), please DO NOT PROVIDE ANY TEST(S) in your file
-
-For each exercise, you will have to create a folder and in this folder, you will have additional files that contain your work. 
-Folder names are provided at the beginning of each exercise under `submit directory` and specific file names for each exercise are also provided at the beginning of each exercise under `submit file(s).`
+## Task
+This project is a simple ReactJS calculator application. The application allows users to perform basic arithmetic operations like addition, subtraction, multiplication, and division. It also provides a clear button to reset the input and an equals button to calculate the result.
 
 ## Description
-We have seen so far what React is and what it is capable of. To summarise in brief we got to know what React web-apps are, React Components, Props, States and lifecycle of a React component. We also created a basic clock application using all of the following. But React is a javascript library to build flexible User Interfaces, and we have not created any so far. So it is time for us to step into the real world of React by creating a simple yet impactful project.
+This ReactJS application is designed to be a simple, single-route calculator. It supports multiple operations and maintains a display of the current input and results. The project associated Tailwind-CSS for styling.
 
-## SPECIFICATIONS
-Create a ReactJS Application.
-It will be a single route application.
+#### Features
 
-You will be able to perform all simple operation: `+-/*`
+- Perform basic arithmetic operations: addition (+), subtraction (-), multiplication (*), and division (/).
+- Clear the input using the "C" button.
+- Calculate the result using the "=" button.
+- Displays the current input and result on the screen.
 
-It should display the result of the operation.
+## Installation
+To set up and run the project locally, follow these steps:
 
-You should be able to do multiple operation.
-You should be able to clear the buffer.
+1. Clone the repository:
 
-## REQUIREMENTS
-No more than 1 components per file.
-Additionals components will be in `src/components/`
+    ```
+    git clone <repo-url>
+    ```
 
-CSS will be in a file associated to the component: css for ExampleComponent.js will be in ExampleComponent.css.
+2. Navigate to the project directory:
 
-Your Readme will have to describe the project.
+    ```
+    cd <project-directory>
+    ```
 
-On the css/colors/design, you can be creative.
+3. Install the dependencies:
 
-Your project will be hosted in the cloud (AWS/Gcloud/Azure/Netlify/...) and you write the url in `my_reactjs_calculator_url.txt`. Nothing more, just the URL.
+    ```
+    npm install
+    ```
 
+4. Start the development server:
 
-It should look like:
+    ```
+    npm run dev
+    ```
 
-<img src="https://storage.googleapis.com/qwasar-public/track-web/my_reactjs_calculator.png" width="30%"/>
+The application will be available at `http://localhost:5173/`.
 
-Your .gitignore must remove node_modules/
+## Usage
+To use the calculator, follow these steps:
 
+1. Enter numbers and operators by clicking on the corresponding buttons.
+2. The current input will be displayed on the screen.
+3. Click the "=" button to calculate the result of the entered expression.
+4. Use the "Clear" button to reset the input.
+
+#### Hosting:
+The application is hosted in the cloud and can be accessed via the following URL:
+[DEMO](https://azizbeks-calculator-project.vercel.app/)
+
+## The Core Team
+Azizbek Xujayorov
+
+<span><i>Made at <a href="https://qwasar.io">Qwasar SV -- Software Engineering School</a></i></span>
+<span><img alt="Qwasar SV -- Software Engineering School's Logo" src="https://storage.googleapis.com/qwasar-public/qwasar-logo_50x50.png" width="20px"></span>
